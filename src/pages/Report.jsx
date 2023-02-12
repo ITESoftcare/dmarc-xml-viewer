@@ -154,7 +154,7 @@ export default function Report() {
   // console.log(stats);
   // console.log(file?.records.length * 2);
   state.selectedFile?.data.records.map(obj => {
-    console.log(obj);
+    // console.log(obj);
     if (obj.row.policy_evaluated.dkim === 'fail') {
       stats.invalidFlow += 1;
     }
