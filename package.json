@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "author": "ITESaurabh",
-  "homepage": "https://itesoftcare.github.io/dmarc-xml-viewer/",
   "type": "module",
   "scripts": {
     "dev": "vite",
