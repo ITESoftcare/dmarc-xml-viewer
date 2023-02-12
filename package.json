@@ -2,6 +2,7 @@
   "name": "dmarc-xml-viewer",
   "private": true,
   "version": "0.0.0",
+  "author": "ITESaurabh",
   "type": "module",
   "scripts": {
     "dev": "vite",
