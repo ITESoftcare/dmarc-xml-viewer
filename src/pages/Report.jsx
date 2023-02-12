@@ -45,7 +45,9 @@ function Row({ row }) {
           </IconButton>
         </TableCell>
         <TableCell component="th" scope="row">
-          <Link target="_blank" href={`https://db-ip.com/${row.row.source_ip}`}>{row.row.source_ip}</Link>
+          <Link target="_blank" href={`https://db-ip.com/${row.row.source_ip}`}>
+            {row.row.source_ip}
+          </Link>
         </TableCell>
         <TableCell align="right">{row.row.count}</TableCell>
         <TableCell align="right">{row.fat}</TableCell>
@@ -165,6 +167,14 @@ export default function Report() {
   return (
     <Box component="main">
       <Container maxWidth="xl" sx={{ mt: 4, mb: 4 }}>
+        {!file && (
+          <Box textAlign={'center'}>
+            <Icon height={100} icon="bi:filetype-xml" />
+            <Typography variant="h5" mt={5}>
+              Add XML(s) file(s) from left bar to get started.
+            </Typography>
+          </Box>
+        )}
         <Grid container spacing={4}>
           {file && (
             <>

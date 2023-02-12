@@ -119,6 +119,7 @@ export default function FilePicker() {
           variant="contained"
           disabled={state.isFilesProcessing}
           onClick={processFiles}
+          sx={{ mt: 2 }}
           fullWidth
         >
           Process

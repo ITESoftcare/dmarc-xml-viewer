@@ -1,7 +1,7 @@
 export var APP_VERSION = import.meta.env.VITE_APP_VERSION;
-export var APP_NAME = 'Residentsline Quote Portal';
-export var ORG_NAME = 'Creative Ideaz Labs';
-export var ORG_SITE = 'https://creativeideaz.io';
+export var APP_NAME = 'DMARC XML Viewer';
+export var ORG_NAME = 'ITESoftcare';
+export var ORG_SITE = 'https://github.com/ITESoftcare';
 export var AUTH_COOKIE = 'auth_cookie';
 export var BASE_COOKIE = 'base_cookie';
 export var ENTITY_DATA = 'entity_data';

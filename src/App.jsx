@@ -4,11 +4,7 @@ import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 import './App.css';
 import { getTheme } from './utils/StorageUtil';
-import {
-  createTheme,
-  CssBaseline,
-  ThemeProvider,
-} from '@mui/material';
+import { createTheme, CssBaseline, ThemeProvider } from '@mui/material';
 import getDesignTokens from './config/theme';
 import 'react-circular-progressbar/dist/styles.css';
 import dayjs from 'dayjs';
